@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Patnam Sravani, Computer Science Engineering student and aspiring software professional.">
+<title>Patnam Sravani | Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121b31;--panel2:#172440;--text:#f3f5ff;--muted:#b1bdd7;--accent:#9aa9ff;--mint:#70e2cc;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 85% 5%,#27345f 0,transparent 29%),var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{width:min(1080px,90%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(11,16,32,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{min-height:72px;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.logo{font-weight:900;color:var(--mint);font-size:1.25rem;letter-spacing:1px}
+.navlinks{display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}
+.navlinks a:hover{color:var(--mint)}
+.hero{min-height:76vh;display:flex;align-items:center;padding:80px 0}
+.kicker{color:var(--mint);text-transform:uppercase;letter-spacing:2px;font-weight:800;font-size:.78rem}
+h1{font-size:clamp(2.8rem,7vw,5.5rem);line-height:1.06;letter-spacing:-2px;margin:15px 0}
+h1 span{color:var(--accent)}
+.lead{max-width:700px;color:var(--muted);font-size:1.12rem}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;border:1px solid var(--line);padding:11px 19px;border-radius:999px;font-weight:750}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#10172e}
+.btn:hover{transform:translateY(-2px);transition:.2s}
+section{padding:66px 0}
+h2{font-size:clamp(1.9rem,4vw,2.7rem);margin:6px 0 25px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{background:linear-gradient(145deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:20px;padding:25px}
+.card p{color:var(--muted)}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fact{padding:14px;background:rgba(255,255,255,.045);border-radius:13px;overflow-wrap:anywhere}
+.fact strong{display:block;color:var(--mint);font-size:.75rem;letter-spacing:1px;margin-bottom:3px}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:17px}
+.tag{padding:6px 12px;border:1px solid rgba(154,169,255,.38);background:rgba(154,169,255,.1);border-radius:999px;color:#e0e5ff;font-size:.9rem}
+.project-type{font-size:.76rem;color:var(--mint);font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.project h3{font-size:1.25rem;margin:8px 0 12px;line-height:1.35}
+.project p{margin:9px 0}
+.project ul{padding-left:20px;color:var(--muted);margin-top:10px}
+.project li{margin:7px 0}
+.education-item{padding:18px 0;border-bottom:1px solid var(--line)}
+.education-item:last-child{border:0;padding-bottom:0}
+.education-item:first-child{padding-top:0}
+.education-item h3{font-size:1.08rem}
+.meta{color:var(--muted);font-size:.94rem}
+.score{display:inline-block;margin-top:7px;color:var(--mint);font-weight:750}
+.contact{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.contact-links{display:flex;gap:10px;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);padding:25px 0;text-align:center;color:var(--muted);font-size:.9rem}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}.navlinks{gap:11px;font-size:.82rem}.hero{min-height:68vh}h1{letter-spacing:-1px}}
+</style>
+</head>
+<body>
+<header><nav class="container">
+<a class="logo" href="#home">PS.</a>
+<div class="navlinks"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></div>
+</nav></header>
+<main>
+<section class="hero container" id="home">
+<div>
+<div class="kicker">Computer Science Engineering · 2023–2027</div>
+<h1>Hi, I'm<br><span>Patnam Sravani.</span></h1>
+<p class="lead">Aspiring Computer Science graduate with a passion for technology and innovation. I enjoy programming, analytical problem-solving, and learning how software can solve real-world problems.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn" href="#contact">Contact me</a></div>
+</div>
+</section>
+
+<section class="container" id="about">
+<div class="kicker">Introduction</div><h2>About Me</h2>
+<div class="grid2">
+<div class="card"><p>I am pursuing a B.Tech in Computer Science Engineering at Bhaskar Engineering College, affiliated with JNTUH. I have knowledge of programming, software fundamentals, and analytical problem-solving. I am seeking an opportunity to begin my professional career in the IT industry, where I can contribute, collaborate, and continue developing my technical skills.</p></div>
+<div class="card facts">
+<div class="fact"><strong>NAME</strong>Patnam Sravani</div>
+<div class="fact"><strong>LOCATION</strong>Telangana, India</div>
+<div class="fact"><strong>DEGREE</strong>B.Tech – CSE</div>
+<div class="fact"><strong>GRADUATION</strong>2027</div>
+</div>
+</div>
+</section>
+
+<section class="container" id="education">
+<div class="kicker">Academic background</div><h2>Education</h2>
+<div class="card">
+<div class="education-item"><h3>B.Tech – Computer Science Engineering</h3><div class="meta">Bhaskar Engineering College · Affiliated to JNTUH · 2023–2027</div><div class="score">CGPA: 7.22</div></div>
+<div class="education-item"><h3>Intermediate – MPC</h3><div class="meta">Telangana Model School Junior College · 2021–2023</div><div class="score">CGPA: 7.47</div></div>
+<div class="education-item"><h3>SSC / Class X</h3><div class="meta">TSWREIS Gowliddodi · 2020–2021</div><div class="score">CGPA: 10</div></div>
+</div>
+</section>
+
+<section class="container" id="skills">
+<div class="kicker">Technical toolkit</div><h2>Skills</h2>
+<div class="grid2">
+<div class="card"><h3>Programming Languages</h3><div class="tags"><span class="tag">Python</span><span class="tag">C</span></div></div>
+<div class="card"><h3>Database</h3><div class="tags"><span class="tag">MySQL</span></div></div>
+<div class="card"><h3>Tools</h3><div class="tags"><span class="tag">GitHub</span><span class="tag">VS Code</span></div></div>
+<div class="card"><h3>Personal Skills</h3><div class="tags"><span class="tag">Problem Solving</span><span class="tag">Task Management</span><span class="tag">Teamwork</span><span class="tag">Adaptability</span><span class="tag">Communication</span></div></div>
+</div>
+</section>
+
+<section class="container" id="projects">
+<div class="kicker">Selected work</div><h2>Projects</h2>
+<article class="card project">
+<div class="project-type">Academic project</div>
+<h3>Stroke Risk Prediction with Hybrid Deep Transfer Learning Framework</h3>
+<p class="meta">Technologies: Python · Django · TensorFlow · Scikit-learn · MySQL</p>
+<ul>
+<li>Developed a healthcare prediction system for early stroke risk assessment using hybrid deep transfer learning techniques.</li>
+<li>Implemented data preprocessing, feature extraction, transfer learning, and risk classification modules to improve prediction accuracy.</li>
+<li>Built a Django-based web application with secure user management and patient data processing.</li>
+</ul>
+<div class="tags"><span class="tag">Machine Learning</span><span class="tag">Deep Learning</span><span class="tag">Django</span><span class="tag">MySQL</span></div>
+<p class="meta" style="font-size:.82rem;margin-top:15px">Academic project for learning and demonstration; predictions are not a medical diagnosis.</p>
+</article>
+</section>
+
+<section class="container" id="certificates">
+<div class="kicker">Learning & development</div><h2>Certificates</h2>
+<div class="card"><h3>TCS Workshop</h3><p>Workshop participation listed in my resume.</p></div>
+</section>
+
+<section class="container" id="contact">
+<div class="kicker">Get in touch</div><h2>Contact</h2>
+<div class="card contact">
+<div><h3>Let's connect and build something meaningful.</h3><p class="meta">Open to learning opportunities, internships, and entry-level IT roles.</p><p style="margin-top:12px"><strong>Email:</strong> patnamsravani28@gmail.com<br><strong>Phone:</strong> +91 7569126827<br><strong>Location:</strong> Telangana, India</p></div>
+<div class="contact-links"><a class="btn primary" href="mailto:patnamsravani28@gmail.com">Email me</a><a class="btn" href="tel:+917569126827">Call</a></div>
+</div>
+<p class="meta" style="margin-top:13px">LinkedIn and GitHub profile URLs were not included in the uploaded resume, so profile buttons can be added once the links are available.</p>
+</section>
+</main>
+<footer>© <span id="year"></span> Patnam Sravani · Personal Portfolio</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
